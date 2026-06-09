@@ -8,18 +8,31 @@ To write a Java program that serializes a collection of objects (ArrayList<Stude
 
 ## ALGORITHM :
 1.Start the program.
+
 2.Create a Student class that implements the Serializable interface.
+
 3.Read the number of students from the user.
+
 4.Create an ArrayList<Student>.
+
 5.Read the student details (id, name, marks) and add them to the list.
+
 6.Create an ObjectOutputStream connected to a file.
+
 7.Write the ArrayList<Student> object into the file using writeObject().
+
 8.Close the output stream.
+
 9.Create an ObjectInputStream connected to the same file.
+
 10.Read the serialized object using readObject() and typecast it to ArrayList<Student>.
+
 11.Close the input stream.
+
 12.Display the deserialized student records.
+
 13.Handle exceptions if any occur.
+
 14.Stop the program.
 ## PROGRAM:
  ```
