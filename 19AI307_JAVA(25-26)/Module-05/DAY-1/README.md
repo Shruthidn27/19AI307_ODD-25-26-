@@ -8,13 +8,21 @@ To write the contents of an array of strings into a text file using the PrintWri
 
 ## ALGORITHM :
 1.Start the program.
+
 2.Create an array of strings.
+
 3.Create a PrintWriter object using FileWriter to open/create the output file.
+
 4.Traverse the array using a loop.
+
 5.Write each string from the array into the file using println().
+
 6.Close the PrintWriter object.
+
 7.Display a success message.
+
 8.Handle any exceptions that may occur during file operations.
+
 9.Stop the program.
 ## PROGRAM:
  ```
