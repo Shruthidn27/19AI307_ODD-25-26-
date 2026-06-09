@@ -7,16 +7,27 @@ To write a Java program that counts the number of words present in a file.
 
 ## ALGORITHM :
 1.Start the program.
+
 2.Read a line of text from the user.
+
 3.Create a file named sample.txt.
+
 4.Write the entered text into the file and close it.
+
 5.Open the file using BufferedReader.
+
 6.Read the contents of the file.
+
 7.Check whether the line is not empty.
+
 8.Split the line into words using whitespace (\\s+) as the delimiter.
+
 9.Count the number of words obtained after splitting.
+
 10.Display the word count.
+
 11.Handle any input/output exceptions.
+
 12.Stop the program.
 
 
